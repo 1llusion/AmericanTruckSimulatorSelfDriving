@@ -45,3 +45,21 @@ Please inspect each script before running for additional instructions.
 
 # Training data
 Download an example training dataset [here](https://drive.google.com/drive/folders/1-4YN3uoHxECsaCSYhczXoH7cTm9I1Rkq?usp=sharing).
+
+# Dependencies
+```
+fastai==2.6.0
+keyboard==0.13.5
+numpy==1.22.3
+Pillow==9.1.0
+pyautogui==0.9.53
+torch==1.11.0
+torchvision==0.12.0
+```
+## Installation
+Anaconda environment is recommended.
+
+```
+conda create --name SelfDrivingATS --file requirements.txt
+conda activate SelfDrivingATS
+```
